@@ -1,2 +1,3 @@
 bcMaster
 ========
+BitCoin Trading Client
