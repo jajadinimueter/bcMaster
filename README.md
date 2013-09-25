@@ -19,7 +19,7 @@ Dies aus folgenden Gründen:
 Build Control
 -------------
 
-Für korrekte Buils verwenden wir Maven, da mit diesem Tool alle wichtigen Funktionen
+Für korrekte Builds verwenden wir Maven, da mit diesem Tool alle wichtigen Funktionen
 abgedeckt werden.
 
 
@@ -27,7 +27,7 @@ abgedeckt werden.
 Projekt kompilieren
 -------------------
 
-Indem wir Apache Maven und Idea Intellij für den Build-Prozess benutzen, stellen wir sicher,
+Indem wir Apache Maven und Idea IntelliJ für den Build-Prozess benutzen, stellen wir sicher,
 dass jedes Mitglied der Gruppe das Projekt korrekt verwenden kann (unter Berücksichtigung
 der Abhängigkeiten).
 
