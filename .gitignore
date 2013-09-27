@@ -1,3 +1,6 @@
 Fallstudie.iml
 bcMaster/.idea
 bcMaster/target/
+*.iws
+*.iml
+*.ipr
