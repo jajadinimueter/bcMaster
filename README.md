@@ -1,7 +1,7 @@
 bcMaster
 ========
 
-Im Rahmen der Fallstudie im Fach «Methoden der Programmeriung» des berufsbegleitenden
+Im Rahmen der Fallstudie im Fach «Methoden der Programmierung» des berufsbegleitenden
 Bachelor-Studienganges Informatik an der ZHAW Zürich soll ein BitCoin Trading Client
 (bcMaster) programmiert werden.
 
