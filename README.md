@@ -1,7 +1,9 @@
 bcMaster
 ========
 
-BitCoin Trading Client
+Im Rahmen der Fallstudie im Fach «Methoden der Programmeriung» des berufsbegleitenden
+Bachelor-Studienganges Informatik an der ZHAW Zürich soll ein BitCoin Trading Client
+(bcMaster) programmiert werden.
 
 
 
@@ -19,23 +21,25 @@ Dies aus folgenden Gründen:
 Build Control
 -------------
 
-Für korrekte Builds verwenden wir Maven, da mit diesem Tool alle wichtigen Funktionen
-abgedeckt werden.
+Für korrekte Builds werden wir eventuell [travis](https://travis-ci.org/) verwenden,
+da mit diesem Tool alle wichtigen Funktionen abgedeckt werden.
+Dieser Service ist gratis und lässt sich sehr gut zusammen mit github benutzen. Github
+hat sogar eine travis-Integration.
 
 
 
 Projekt kompilieren
 -------------------
 
-Indem wir Apache Maven und Idea IntelliJ für den Build-Prozess benutzen, stellen wir sicher,
-dass jedes Mitglied der Gruppe das Projekt korrekt verwenden kann (unter Berücksichtigung
-der Abhängigkeiten).
+Die Art des Kompilierens ist noch nicht festgelegt worden (wahrscheinlich auch mit travis).
+Wir stellen so sicher, dass jedes Mitglied der Gruppe das Projekt korrekt verwenden kann
+(unter Berücksichtigung der Abhängigkeiten).
 
 
 
 Tests
 -----
 
-Tests werden via 'mvn test' target laufen gelassen. Maven verwendet dann alle Unittests unter
-'main/test/java'.
+Tests können ebenso mit travis laufen gelassen werden.
+
 
