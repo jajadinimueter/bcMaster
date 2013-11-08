@@ -1,12 +1,14 @@
 language: ruby
 rvm:
-  - "1.8.7"
-  - "1.9.2"
-  - "1.9.3"
-  - jruby-18mode # JRuby in 1.8 mode
-  - jruby-19mode # JRuby in 1.9 mode
-  - rbx-18mode
-  - rbx-19mode
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
-
+- 1.8.7
+- 1.9.2
+- 1.9.3
+- jruby-18mode
+- jruby-19mode
+- rbx-18mode
+- rbx-19mode
+deploy:
+  provider: heroku
+  app: bcmaster
+  api_key:
+    secure: AJSVxzk7Rho14LjgYibYiAh/w25VJVwAyCpdJ5iR1a21YWKCr6AVCrxXTWMbPdJBxhZj9oDEUS/DcFx0SNamg9cGPN3X0Yv6XaGHWdrpMVOuiuKdTUYhXVhAju9+wq05NWgcc3yqIMpAA/y6AaLRuzrYqjyS5q1uDfnoDe3GddQ=
