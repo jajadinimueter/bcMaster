@@ -49,5 +49,6 @@ Links
 
 Project: http://www.hostedredmine.com/projects/bcmaster
 CI: https://travis-ci.org/kressi/bcMaster
-Dev: https://github.com/kressi/bcMaster
+Prod Source: https://github.com/PinkSheep/bcMaster
+Dev Source: https://github.com/kressi/bcMaster
 App: http://bcmaster.herokuapp.com
