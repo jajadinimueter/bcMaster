@@ -6,7 +6,6 @@ Bachelor-Studienganges Informatik an der ZHAW Zürich soll ein Bitcoin Trading C
 (bcMaster) programmiert werden.
 
 
-
 Source Control
 --------------
 
@@ -43,3 +42,11 @@ Tests
 Tests können ebenso mit travis laufen gelassen werden.
 
 
+
+
+Links
+------
+Project: http://www.hostedredmine.com/projects/bcmaster
+CI: https://travis-ci.org/kressi/bcMaster
+Dev: https://github.com/kressi/bcMaster
+App: http://bcmaster.herokuapp.com
