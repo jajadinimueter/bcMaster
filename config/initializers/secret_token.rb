@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-BcMaster::Application.config.secret_token = 'acc86f52b6e1a6c2a28f5262cfd3e0dfbae99b4a87378cf006fede90393c80b886f84a8fb17e4e3475fb9c5ed573ee1dc979d527beeae9f4a4f9b938e226c99c'
+BcMaster::Application.config.secret_token = '13cfbd6bd9a6cb17f4f700d2d4d569c68264ccae7e27626d19771ef5d3caf01e4a351c848af3814c321b983ac7c1da632fc2eb72804330dd9e133070ed0a161a'
