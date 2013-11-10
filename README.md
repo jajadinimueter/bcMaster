@@ -49,5 +49,5 @@ Links
 * CI: https://travis-ci.org/kressi/bcMaster
 * Prod Source: https://github.com/PinkSheep/bcMaster
 * Dev Source: https://github.com/kressi/bcMaster
-* App: http://bcmaster.herokuapp.com
-
+* Prod App: http://bcmaster.herokuapp.com
+* Dev App: http://bcmaster-dev.herokuapp.com
