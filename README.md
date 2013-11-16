@@ -1,5 +1,6 @@
 bcMaster
 ========
+<a href='https://travis-ci.org/kressi/playground?branch=master'><img src='https://travis-ci.org/kressi/playground.png?branch=master' alt='Build Status'/></a>
 
 Im Rahmen der Fallstudie im Fach «Methoden der Programmierung» des berufsbegleitenden
 Bachelor-Studienganges Informatik an der ZHAW Zürich soll ein Bitcoin Trading Client
@@ -46,8 +47,8 @@ Links
 ------
 
 * Project: http://www.hostedredmine.com/projects/bcmaster
-* CI: https://travis-ci.org/kressi/bcMaster
-*     http://travis-lite.com/kressi/bcMaster
+* Travis: https://travis-ci.org/kressi/bcMaster
+* Travis no JS: http://travis-lite.com/kressi/bcMaster
 * Prod Source: https://github.com/PinkSheep/bcMaster
 * Dev Source: https://github.com/kressi/bcMaster
 * Prod App: http://bcmaster.herokuapp.com
