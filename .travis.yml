@@ -31,8 +31,8 @@ before_script:
   - psql -c 'create database myapp_test;' -U postgres
 
 script:
-  - RAILS_ENV=test bundle exec rake --trace db:migrate test
-#  - export RAILS_ENV=test
+#  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+  - export RAILS_ENV=test
 #  - rake db:test:load
 #  - bundle exec rake db:create db:migrate
 #  - bundle exec rake db:test:prepare
