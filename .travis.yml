@@ -30,21 +30,12 @@ env:
 before_script:
   - psql -c 'create database myapp_test;' -U postgres
 
-before_install:
-  - cp config/database.travis.yml config/database.yml
-#  - gem --version
-#  - gem update --system
-#  - gem install activerecord-postgresql-adapter
-
 script:
   - RAILS_ENV=test bundle exec rake --trace db:migrate test
 #  - export RAILS_ENV=test
 #  - rake db:test:load
 #  - bundle exec rake db:create db:migrate
 #  - bundle exec rake db:test:prepare
-
-#install:
-#  "bundle install"
 
 deploy:
   provider: heroku
