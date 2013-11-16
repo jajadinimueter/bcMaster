@@ -10,8 +10,8 @@ env:
     - DB=postgresql
 #    - DB=sqlite
 #    - DB=mysql
-#  global:
-#    - "JRUBY_OPTS=-Xcext.enabled=true" 
+  global:
+    - "JRUBY_OPTS=-Xcext.enabled=true" 
 
 #matrix:
 #  include:

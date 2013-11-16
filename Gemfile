@@ -6,9 +6,9 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'pg'
+gem 'pg'
 #gem 'activerecord-jdbcsqlite3-adapter'
-gem 'activerecord-jdbcpostgresql-adapter', platform: jruby
+#gem 'activerecord-jdbcpostgresql-adapter'
 
 # To avoid Heroku injected Plugins warning
 gem 'rails_12factor'
