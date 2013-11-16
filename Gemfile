@@ -8,7 +8,7 @@ gem 'rails', '3.2.6'
 
 #gem 'pg'
 #gem 'activerecord-jdbcsqlite3-adapter'
-gem 'activerecord-jdbcpostgresql-adapter'
+gem 'activerecord-jdbcpostgresql-adapter', platform: jruby
 
 # To avoid Heroku injected Plugins warning
 gem 'rails_12factor'
