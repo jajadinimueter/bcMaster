@@ -1,8 +1,22 @@
 language: ruby
+
 rvm:
-- jruby-18mode
+#- jruby-18mode
 - jruby-19mode
-- jruby-head
+#- jruby-head
+
+env:
+  matrix:
+    - DB=postgresql
+#    - DB=sqlite
+#    - DB=mysql
+#  global:
+#    - "JRUBY_OPTS=-Xcext.enabled=true" 
+
+#matrix:
+#  include:
+#    - rvm: jruby-19mode
+#      env: DB=sqlite
 
 # white list
 #branches:
@@ -10,10 +24,32 @@ rvm:
 #  - master
 #  - stable
 
+#services:
+#  - pgsql 
+
+before_script:
+  - psql -c 'create database myapp_test;' -U postgres
+
+before_install:
+  - cp config/database.travis.yml config/database.yml
+#  - gem --version
+#  - gem update --system
+#  - gem install activerecord-postgresql-adapter
+
+script:
+  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+#  - export RAILS_ENV=test
+#  - rake db:test:load
+#  - bundle exec rake db:create db:migrate
+#  - bundle exec rake db:test:prepare
+
+#install:
+#  "bundle install"
+
 deploy:
   provider: heroku
   app:
     master: bcmaster-dev
     stable: bcmaster
-  api_key:
-    secure: AJSVxzk7Rho14LjgYibYiAh/w25VJVwAyCpdJ5iR1a21YWKCr6AVCrxXTWMbPdJBxhZj9oDEUS/DcFx0SNamg9cGPN3X0Yv6XaGHWdrpMVOuiuKdTUYhXVhAju9+wq05NWgcc3yqIMpAA/y6AaLRuzrYqjyS5q1uDfnoDe3GddQ=
+  api_key: b3f1822f-cc5b-459f-a7d6-d13ded0db51d
+#    secure: WxmROIY6iXFTw7DbpVWwWo4MZAidW4QrEUYu3m6wJhgVzptkIdayCNcWWj6oEOusHneSDF6si9iP07OynLW1HksZ1JQpn6ffGs+FhDXWDTVq6UImRGgB47Bpu5Md0vzrKaoagVMToVIzxOEnS/fsTTXaE6WA/tpvGnHXRV3HZ+w=
