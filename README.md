@@ -21,8 +21,8 @@ Zur Source-Verwaltung verwenden wir git. Das Repository lassen wir von github ho
 Build Control
 -------------
 
-Für korrekte Builds verwenden wir [travis](https://travis-ci.org/kressi/bcMaster), da mit diesem Tool
-alle wichtigen Funktionen abgedeckt werden.
+Für korrekte Builds verwenden wir [travis](https://travis-ci.org/kressi/bcMaster), da
+mit diesem Tool alle wichtigen Funktionen abgedeckt werden.
 Dieser Service ist gratis und lässt sich sehr gut zusammen mit github benutzen. Github
 hat sogar eine travis-Integration.
 
