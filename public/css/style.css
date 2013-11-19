@@ -1,0 +1,40 @@
+body {
+  background-color: #FBFBEF;
+  margin: 20px 20px;
+  font-size: small;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+#main {
+  margin: 20px 40px;
+}
+
+h1 {
+  font-size: 300%;
+  padding-top:50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#title-image {
+  width: 150px;
+  margin-top:180px;
+  float: left;
+}
+
+#login {
+  margin-top: 50px;
+  float: right;
+}
+
+#login-field {
+  margin-right:20px;
+  width: 400px;
+}
+
+#about, #disclaimer {
+  width: 530px;
+  margin-top: 50px;
+}
