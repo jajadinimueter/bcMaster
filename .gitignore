@@ -16,3 +16,9 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+
+#Config file for the database (temporary)
+
+config/database.yml
+config/database_backup.yml
