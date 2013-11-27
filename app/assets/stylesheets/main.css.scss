@@ -1,3 +1,56 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #FBFBEF;
+  margin: 20px 20px;
+  font-size: medium;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+#main {
+  margin: 20px 40px;
+}
+
+h1 {
+  font-size: 300%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#title-image {
+  width: 150px;
+  margin-top: 180px;
+  float: left;
+}
+
+#login {
+  margin-top: 50px;
+  float: right;
+}
+
+#login-label {
+  margin-left: 40px;
+}
+
+#api-key, #secret {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 420px;
+}
+
+#about, #disclaimer {
+  width: 630px;
+  margin-top: 50px;
+}
+
+#signed-in {
+  width: 400px;
+  margin-bottom: 100px;
+}
+
