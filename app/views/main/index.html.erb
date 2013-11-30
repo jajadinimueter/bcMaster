@@ -16,11 +16,17 @@
 <div id="login">
   <p id="login-label">Please enter your API Key and your Secret Key of <a href="https://btc-e.com">btc-e.com</a>:</p>
   <form id="login-form" action="success.html" method="post">
-    <ul>
-      <li><input type="text" id="api-key" placeholder="API Key"></li>
-      <li><input type="password" id="secret" placeholder="Secret key"></li>
-      <li><button type="submit" class="btn btn-default navbar-btn"><a href="success.html">Sign in</a></button></li>
-    </ul>
+    <table>
+      <tr>
+        <td><input type="text" id="api-key" placeholder="API Key"></td>
+      </tr>
+      <tr>
+        <td><input type="password" id="secret" placeholder="Secret Key"></td>
+      </tr>
+        <td><button type="submit" class="btn btn-default navbar-btn" id="sign-in_button"><a href="success.html">Sign in</a></button>
+        or <%= link_to "Sign up [not yet implemented]", "signup.html"%></td>
+      </tr>
+    </table>
   </form>
 </div>
 
