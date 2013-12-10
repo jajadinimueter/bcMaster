@@ -1,4 +1,3 @@
-
 <div>
   <table>
     <tr>
@@ -8,25 +7,16 @@
   </table>
 </div>
 
-
 <div id="title-image">
   <%= link_to image_tag("bitcoin.jpg", :alt => "Bitcoin Image", :size => "250x188", :title => "Quelle: https://traxarmstron g.com/igmarket-australias-1-cfd-and-fx-provider-to-start-bitcoin-trading"), "https://traxarmstrong.com/igmarket-australias-1-cfd-and-fx-provider-to-start-bitcoin-trading", :target => "_blank" %>
 </div>
 
 <div id="login">
   <p id="login-label">Please enter your API Key and your Secret Key of <a href="https://btc-e.com">btc-e.com</a>:</p>
-  <form id="login-form" action="success.html" method="post">
-    <table>
-      <tr>
-        <td><input type="text" id="api-key" placeholder="API Key"></td>
-      </tr>
-      <tr>
-        <td><input type="password" id="secret" placeholder="Secret Key"></td>
-      </tr>
-        <td><button type="submit" class="btn btn-default navbar-btn" id="sign-in_button"><a href="success.html">Sign in</a></button>
-        or <%= link_to "Sign up [not yet implemented]", "signup.html"%></td>
-      </tr>
-    </table>
-  </form>
+  <%= form_tag(controller: 'login', action: 'login', method: 'post', id: 'login-form') do %>
+    <%= text_field_tag(:apikey, nil, placeholder: 'API-Key') %><br>
+    <%= password_field_tag(:password, nil, placeholder: 'Secret') %><br>
+    <%= submit_tag('Login') %>
+  <% end %>
 </div>
 
